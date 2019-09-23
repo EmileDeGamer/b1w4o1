@@ -1,5 +1,4 @@
 Main()
-//ELSE overal om te fout loos maken
 function Main(){
     log("Het gevaarlijke angstaanjagende doolhof")
     let keuze = prompt('Welkom in het meest dodelijke doolhof allertijden er is maar 1 uitweg, maar als u de verkeerde keuze maakt bent u DOOD.\nWelk pad wilt u eerst volgen?:', 'A: Het linker pad/B: Het rechter pad')
