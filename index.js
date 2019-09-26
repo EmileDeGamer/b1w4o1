@@ -196,7 +196,7 @@ function Main(){
     else if (keuze.toLowerCase().trim() == "b"){
         log("rechter pad")
         keuze = prompt('U heeft het rechter pad gekozen:\nDeze kant leid naar een van de meest gevaarlijkste bruggen over het water ooit!\nWilt u de linker of de rechter brug nemen?:', 'A: Linker brug/B: Rechter brug')
-        if (keuze.toLowerCase().trim() == "b"){
+        if (keuze.toLowerCase().trim() == "a"){
             keuze = prompt('U heeft de linker brug gekozen:\nOnder deze brug leven gevaarlijke krokodillen! U kunt deze alleen ontwijken door een ingewikkeld raadsel op te lossen:\nHoeveel krokodillen blijven er over, als er 10 krokodillen zijn, maar 3 krokodillen dood gaan?:', 'Antwoord')
             if (keuze == "7"){
                 keuze = prompt('U heeft het juiste antwoord gegeven:\n Oh nee er staat een muur voor u.\nWilt u erover heen of eronderdoor?:', 'A: Overheen/B: Eronderdoor')
@@ -210,7 +210,7 @@ function Main(){
                     }
                 }
                 else if (keuze == "B" | "b"){
-                    keuze = prompt('U heeft ervoor gekozen om onder de muur door te gaan:\nHelaashet gat was te klein, waoorduur u vast bent komen te zitten! :( Doordatu vast zit bent u verhongerd en gestorven! :(\nWilt u opnieuw spelen?:', 'A: Ja/B: Nee')
+                    keuze = prompt('U heeft ervoor gekozen om onder de muur door te gaan:\nHelaas het gat was te klein, waoorduur u vast bent komen te zitten! :( Doordat u vast zit bent u verhongerd en gestorven! :(\nWilt u opnieuw spelen?:', 'A: Ja/B: Nee')
                     if(keuze == "A" | "a"){
                         Main()
                     }
